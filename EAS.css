@@ -1,0 +1,23 @@
+.grid-container {
+    display: flex;
+    width: 100%; 
+    height: 100%;
+    flex-wrap: wrap;
+}
+.grid-item {
+    justify-content: center;
+    width: 100%; 
+    height: 100%; 
+    background-color: lightgray; 
+    border: 1px solid black; 
+}
+body {
+    min-height: 100vh;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+}
